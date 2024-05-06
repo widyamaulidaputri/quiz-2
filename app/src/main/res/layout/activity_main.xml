@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvMenuMkn"
+        android:layout_width="138dp"
+        android:layout_height="24dp"
+        android:text="Menu Makanan"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="45dp" />
+
+    <RadioButton
+        android:id="@+id/rbNasgor"
+        android:text="Nasi Goreng"
+        android:layout_marginTop="35dp"
+        android:layout_marginLeft="-145dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/rbMiegor"
+        android:text="Mie Goreng"
+        android:layout_marginLeft="-112dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/rbMiereb"
+        android:text="Mie Rebus"
+        android:layout_marginLeft="-107dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-210dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <RadioButton
+        android:id="@+id/rbNasduk"
+        android:text="Nasi Uduk"
+        android:layout_marginLeft="-99dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-170dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvMenuMin"
+        android:layout_width="130dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="-95dp"
+        android:layout_marginTop="200dp"
+        android:text="Menu Minuman" />
+
+    <RadioButton
+        android:id="@+id/rbTeh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:text="Teh Es"
+        android:layout_marginLeft="-130dp"/>
+
+    <RadioButton
+        android:id="@+id/rbEs"
+        android:text="Es Jeruk"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/tvJmlPorsi"
+        android:layout_width="130dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="-180dp"
+        android:layout_marginTop="310dp"
+        android:text="Jumlah Porsi" />
+
+    <EditText
+        android:id="@+id/etPorsi"
+        android:hint="Jumlah Porsi"
+        android:textColor="@color/black"
+        android:layout_marginTop="345dp"
+        android:layout_marginLeft="-135dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnPesan"
+        android:text="Pesan"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="-230dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
